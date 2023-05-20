@@ -2,12 +2,12 @@
 如果无法运行，建议重新导入入OpneCV SDK，本人用的版本是opencv-4.5.4-android-sdk
 # 核心代码
 在ImageMethod类中
-'''
+```java
     public  double detectVariousColor(Bitmap bmp, int colorMin, int colorMax) 
 
-'''
+```
 两个数组用于划分颜色,可根据检测物质来调整数组内容
-'''
+```java
     public static double[][] HSV_VALUE_HIGH = {
             new double[]{10.0d, 255.0d, 255.0d},
             new double[]{25.0d, 255.0d, 255.0d},
@@ -32,7 +32,7 @@
             new double[]{0.0d, 0.0d, 46.0d},
             new double[]{0.0d, 0.0d, 221.0d},
             new double[]{156.0d, 43d, 0d}};
-'''
+```
 检测结果是RGB空间的欧式距离～
 # 简介
 比色法是一种分析物质浓度的方法，利用溶液的颜色强度与溶液中物质浓度成正比的关系进行测量。在化学实验室中，常常需要用到比色法来测量样品中某种物质的浓度，这种测量方法需要高精度的光学仪器和精密的数据处理程序，这使得比色法在实验室中的应用非常普遍。
