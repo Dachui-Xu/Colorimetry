@@ -1,0 +1,1 @@
+/Users/xujiaqi/AndroidStudioProjects/Colorimetry/sdk/build/intermediates/cxx/RelWithDebInfo/3q3z2s6n/obj/x86

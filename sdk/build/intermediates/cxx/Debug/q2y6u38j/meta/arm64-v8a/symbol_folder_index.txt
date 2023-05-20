@@ -1,0 +1,1 @@
+/Users/xujiaqi/AndroidStudioProjects/Colorimetry/sdk/build/intermediates/cxx/Debug/q2y6u38j/obj/arm64-v8a
